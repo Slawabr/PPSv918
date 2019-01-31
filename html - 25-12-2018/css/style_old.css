@@ -1,0 +1,184 @@
+
+
+
+
+
+
+
+/* 
+ All resolutions
+*/
+
+@import url(fonts.css);
+
+*{
+	padding: 0; margin: 0; box-sizing: border-box;
+}	
+
+body {
+	font-family: 'Roboto';
+	
+}
+
+
+
+/* 
+ Top header
+*/
+
+header.top {
+color: white;
+background-color: black;
+height: 100px;
+padding-top: 30px;
+}
+
+header.top .top_wrap 
+{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+
+header .logo  {
+	font-family: 'HelveticaNeueCyr thin';
+	font-size: 25pt;
+	margin-left: 40px;
+}
+
+header .logo .porn {
+	font-family: 'HelveticaNeueCyr black';
+}
+
+
+header.top_left
+{
+display: flex;
+}
+
+header.top .topnav 
+{
+display: none;
+}
+
+a i .fa-bars {
+	color: white;
+	font-size: 25pt;
+	display: block;
+	float: right;
+	display: none;
+}
+
+@media  (max-width: 480px) {
+
+header.top .topnav 
+{
+display: flex;
+}
+
+header.top .topnav a
+{
+color: white;
+font-size: 25pt;
+margin-right: 40px;
+}
+
+
+}
+
+
+
+/* 
+ First screen
+*/
+
+
+#welcome {
+	display: none;
+}
+
+.wmsg {
+
+}
+
+
+.recomendsite
+{
+	height: 1250px;
+	background-image: url(../img/nubiles-16.jpg);
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: auto;
+	color: white;
+}
+
+.rectop
+{
+	height: 300px;
+	width: 80%;
+	margin: 0 auto;}
+
+
+.rectopleft {
+	width: 50%;
+	float: left;
+}
+
+.raitingtop
+{
+	width: 50%;
+	float: right;
+}
+
+.rectext {
+width: 80%;
+margin: 0 auto;
+}
+
+.recbot{
+
+}
+
+
+h3.recname {
+	font-family: 'HelveticaNeueCyr heavy';
+	font-size: 30pt;
+	text-transform: uppercase;
+}
+
+
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1025px to higher resolution desktops
+*/
+
+@media (min-width: 1025px) {
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 481px to 1024px
+*/
+
+@media screen and (max-width: 1024px) and (min-width: 481px)
+{
+
+
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = 480px
+*/
+
+@media screen and (max-width: 480px) {
+
+
+}
